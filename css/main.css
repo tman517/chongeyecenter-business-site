@@ -290,11 +290,11 @@ textarea {
 
 .services {
     width: auto;
-    height: 400px;
+    height: 500px;
     font-size: 0px;
     text-align: center;
     vertical-align: top;
-    padding: 40px;
+    padding: 0px 40px;
 }
 
 .services .left {
@@ -307,7 +307,7 @@ textarea {
     font-weight:400;
     color:#ffffff;
     vertical-align: top;
-    background-color:#000000;
+    background-color:#e2e2e2;
     background-image:url('../img/hand.jpg');
     background-repeat:no-repeat;
     background-position:center;
@@ -334,9 +334,10 @@ textarea {
 }
 
 .services .right > ul {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bree Serif', serif;
     font-size: 17px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    line-height:30px;
     position: absolute;
     top: 47%;
     transform: translateY(-50%);
