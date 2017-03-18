@@ -286,6 +286,67 @@ textarea {
 }
 
 
+/* ------------ */
+
+.services {
+    width: auto;
+    height: 400px;
+    font-size: 0px;
+    text-align: center;
+    vertical-align: top;
+    padding: 40px;
+}
+
+.services .left {
+    width:50%;
+    height:100%;
+    position:relative;
+    display:inline-block;
+    text-align:right;
+    font-family: 'Bree Serif', serif;
+    font-weight:400;
+    color:#ffffff;
+    vertical-align: top;
+    background-color:#000000;
+    background-image:url('../img/hand.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.services .left .heading {
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.services .right {
+    width:50%;
+    height:100%;
+    position:relative;
+    display:inline-block;
+    text-align:left;
+    font-size:14px;
+    vertical-align: top;
+}
+
+.services .right > ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    color: #3c2313;
+    left: 25px;
+}
+
+
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
