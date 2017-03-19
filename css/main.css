@@ -426,12 +426,18 @@ textarea {
     line-height:25px;
 }
 
+.visit .instructions {
+    width:auto;
+    height:auto;
+    padding:0px 7%;
+}
+
 .visit .left {
     width: 33%;
     height: 400px;
     display: inline-block;
     vertical-align: top;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 40px;
 }
 
@@ -444,11 +450,18 @@ textarea {
     vertical-align: top;
 }
 
+.visit .center ul {
+    text-align:left;
+    font-size:20px;
+}
+
 .visit .right {
     width:33%;
     height:400px;
     display:inline-block;
     vertical-align: top;
+    font-size:20px;
+    text-align:justify;
 }
 
 /* ==========================================================================
