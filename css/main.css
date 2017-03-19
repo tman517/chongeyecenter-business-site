@@ -351,7 +351,7 @@ textarea {
 
 .insurance {
     width: auto;
-    height: 500px;
+    height: auto;
     text-align: center;
     vertical-align: top;
     padding: 40px 40px;
@@ -387,6 +387,69 @@ textarea {
 }
 
 
+/* ------------ */
+
+.visit {
+    width: auto;
+    height: 500px;
+    text-align: center;
+    vertical-align: top;
+    padding: 60px 40px 40px 40px;
+    font-family: 'Roboto', sans-serif;
+    color:#3c2313;
+}
+
+.visit .heading {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #78b254;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    padding: 20px;
+    letter-spacing: 4px;
+    display: block;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.visit .subHeading {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    color: #78b254;
+    margin: 30px;
+    line-height:25px;
+}
+
+.visit .left {
+    width: 33%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.visit .center {
+    width:33%;
+    height:400px;
+    display:inline-block;
+    border-left:1px solid #e2e2e2;
+    border-right:1px solid #e2e2e2;
+    vertical-align: top;
+}
+
+.visit .right {
+    width:33%;
+    height:400px;
+    display:inline-block;
+    vertical-align: top;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
