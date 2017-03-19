@@ -347,6 +347,45 @@ textarea {
 }
 
 
+/* ------------ */
+
+.insurance {
+    width: auto;
+    height: 500px;
+    text-align: center;
+    vertical-align: top;
+    padding: 40px 40px;
+}
+
+.insurance .heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size:28px;
+    letter-spacing:4px;
+    margin:60px auto 40px;
+}
+
+.insurance .heading .line {
+    width: 200px;
+    height: 1px;
+    border-bottom: 1px solid #e2e2e2;
+    display: inline-block;
+    position: relative;
+    margin: 0px 50px;
+    top: -10px;
+}
+
+.insurance .insuranceLogos {
+    max-width:1400px;
+    margin:0px auto;
+}
+
+.insurance .logo {
+    height:35px;
+    width:auto;
+    margin:30px 40px;
+    display:inline-block;
+}
+
 
 
 /* ==========================================================================
