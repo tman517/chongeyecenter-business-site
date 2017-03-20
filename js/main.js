@@ -34,6 +34,6 @@ function initNav(){
 		var target = $(this).data("nav");
 		var targetScrollTop = $(target).offset().top - 40;
 
-		$('html, body').animate({scrollTop: targetScrollTop}, 1000);
+		$('html, body').stop(true, false).animate({scrollTop: targetScrollTop}, 1000);
 	});
 }
