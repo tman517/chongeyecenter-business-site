@@ -199,12 +199,12 @@ textarea {
 
 #main_wrapper {
     width:100%;
-    height:100%;
+    height:auto;
     position:relative;
     background-color:#ffffff;
 }
 
-.header {
+header {
     width: auto;
     height: 100px;
     padding: 40px 40px 35px;
@@ -215,7 +215,7 @@ textarea {
     box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
 }
 
-.header .menuBtn{
+header .menuBtn{
     width:auto;
     height:auto;
     color:#3c2313;
@@ -226,7 +226,7 @@ textarea {
     cursor:pointer;
 }
 
-.header-info {
+header .header-info {
     width:auto;
     height:auto;
     float:right;
@@ -294,7 +294,7 @@ textarea {
     font-size: 0px;
     text-align: center;
     vertical-align: top;
-    padding: 0px 40px;
+    padding:40px;
 }
 
 .services .left {
@@ -462,6 +462,121 @@ textarea {
     vertical-align: top;
     font-size:20px;
     text-align:justify;
+}
+
+/* ------------ */
+
+.doctor {
+    width: auto;
+    height: auto;
+    font-size: 0px;
+    text-align: center;
+    vertical-align: top;
+    padding:40px;
+}
+
+
+.doctor .left {
+    width:50%;
+    height:auto;
+    min-height:550px;
+    position:relative;
+    display:inline-block;
+    background-image:url('../img/doctor.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    vertical-align:top;
+}
+
+.doctor .right {
+    width:50%;
+    height:100%;
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.doctor .right .heading {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: #3c2313;
+    color: #ffffff;
+    margin-bottom:30px;
+}
+
+.doctor .right .content {
+    width:auto;
+    height:auto;
+    padding:0px 40px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align:left;
+}
+
+.doctor .right .content > div {
+    margin-bottom:20px;
+}
+
+
+/* ------------ */
+
+footer {
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+    min-height: 400px;
+    background-color: #999999;
+    border-top: 20px solid #e2e2e2;
+    margin-top:30px;
+    text-align:center;
+}
+
+footer .map {
+    width:1000px;
+    height:500px;
+    position:relative;
+    margin:80px auto 30px;
+    display:block;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.5);
+}
+
+footer .copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color:#ffffff;
+    text-align:center;
+    padding: 90px 0px 40px 0px;
+}
+
+footer .column {
+    width: 220px;
+    height: auto;
+    min-height: 60px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+    padding: 15px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 12px;
+}
+
+footer .column .heading {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom:5px;
+    border-bottom:1px solid #999999;
 }
 
 /* ==========================================================================
