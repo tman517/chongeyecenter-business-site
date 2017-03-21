@@ -508,12 +508,13 @@ header.sticky .header-info {
 
 .visit {
     width: auto;
-    height: 500px;
+    height: auto;
     text-align: center;
     vertical-align: top;
-    padding: 60px 40px 40px 40px;
+    padding: 40px;
     font-family: 'Roboto', sans-serif;
     color:#3c2313;
+    font-size:0px;
 }
 
 .visit .heading {
@@ -529,6 +530,8 @@ header.sticky .header-info {
     display: block;
     border-radius:5px;
     margin-bottom:20px;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .visit .subHeading {
@@ -541,6 +544,8 @@ header.sticky .header-info {
     color: #78b254;
     margin: 30px;
     line-height:25px;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .visit .instructions {
@@ -551,7 +556,7 @@ header.sticky .header-info {
 
 .visit .left {
     width: 33%;
-    height: 400px;
+    height: auto;
     display: inline-block;
     vertical-align: top;
     font-size: 22px;
@@ -560,7 +565,7 @@ header.sticky .header-info {
 
 .visit .center {
     width:33%;
-    height:400px;
+    height:auto;
     display:inline-block;
     border-left:1px solid #e2e2e2;
     border-right:1px solid #e2e2e2;
@@ -574,7 +579,7 @@ header.sticky .header-info {
 
 .visit .right {
     width:33%;
-    height:400px;
+    height:auto;
     display:inline-block;
     vertical-align: top;
     font-size:20px;
@@ -592,6 +597,9 @@ header.sticky .header-info {
     padding:40px;
 }
 
+.doctor .portrait {
+    display:none;
+}
 
 .doctor .left {
     width:50%;
@@ -802,11 +810,62 @@ footer .column .heading {
         width: 110px;
         margin: 0px 20px;
     }
+
+    .visit {
+        padding:40px;
+        height:auto;
+    }
+
+    .visit .heading {
+        font-size:20px;
+        padding:10px;
+    }
+
+    .visit .subHeading {
+        font-size:18px;
+        margin:10px;
+        letter-spacing:1px;
+    }
+
+    .visit .left {
+        height:auto;
+        line-height:30px;
+    }
+
+    .visit .center {
+        height:auto;
+    }
+
+    .visit .center ul {
+        font-size:12px;
+    }
+
+    .visit .right {
+        height:auto;
+    }
+
+    .visit .instructions {
+        font-size:12px;
+    }
+
+
+    .doctor .right .content {
+        padding:0px 20px;
+        font-size:13px;
+    }
+
+    .doctor .right .heading {
+        font-size:15px;
+    }
 }
 
 
 /* ======================= */
 @media (max-width: 767px) {
+
+    .banner.sticky {
+        margin:70px auto 20px;
+    }
 
     .banner {
         width:auto;
@@ -838,7 +897,7 @@ footer .column .heading {
 
     .services {
         height: auto;
-        padding:0px;
+        padding:20px 0px;
     }
 
     .services .left {
@@ -885,7 +944,7 @@ footer .column .heading {
 
 
     .insurance {
-        padding:0px;
+        padding:20px 0px;
     }
 
     .insurance .insuranceLogos {
@@ -899,13 +958,36 @@ footer .column .heading {
 
     .insurance .heading {
         font-size:17px;
-        margin:60px 0px 20px;
+        margin:20px 0px 20px;
     }
 
     .insurance .heading .line {
         width: 50px;
         margin: 0px 10px;
         top:-7px;
+    }
+
+
+    .visit {
+        padding:20px 0px;
+    }
+
+    .visit .heading {
+        border-radius:0px;
+    }
+
+    .doctor {
+        padding:20px 0px;
+    }
+
+    .doctor .right .content {
+        padding:0px 15px;
+        font-size:11.5px;
+    }
+
+    .doctor .right .heading {
+        font-size:15px;
+        padding:15px;
     }
 }
 
@@ -956,13 +1038,17 @@ footer .column .heading {
         margin-bottom:4px;
     }
 
+    .services .left .heading {
+        font-size:20px;
+    }
+
     .services .right ul {
         width:250px;
         font-size:9px;
     }
 
     .insurance {
-        padding:0px;
+        padding:20px 0px;
     }
 
     .insurance .insuranceLogos {
@@ -983,6 +1069,77 @@ footer .column .heading {
         width: 30px;
         margin: 0px 10px;
         top:-4px;
+    }
+
+
+    .visit {
+        padding:20px 0px;
+        height:auto;
+    }
+
+    .visit .heading {
+        font-size:15px;
+        padding:15px;
+        border-radius:0px;
+    }
+
+    .visit .subHeading {
+        font-size:16px;
+        margin:5px;
+        letter-spacing:1px;
+    }
+
+    .visit .left {
+        width:100%;
+        display:block;
+        height:auto;
+        line-height:30px;
+    }
+
+    .visit .center {
+        width:100%;
+        display:block;
+        height:auto;
+        border-left:none;
+        border-right:none;
+        margin:30px 0px;
+    }
+
+    .visit .center ul {
+        font-size:12px;
+    }
+
+    .visit .right {
+        width:100%;
+        display:block;
+        height:auto;
+    }
+
+    .visit .instructions {
+        font-size:12px;
+        padding:0% 13%;
+    }
+
+    .doctor {
+        padding:20px 0px;
+    }
+
+    .doctor .left {
+        display:none;
+    }
+
+    .doctor .right {
+        width:100%;
+        display:block;
+    }
+
+    .doctor .right .content .heading {
+        margin-bottom:10px;
+    }
+
+    .doctor .portrait {
+        display:block;
+        margin-bottom:10px;
     }
 }
 
