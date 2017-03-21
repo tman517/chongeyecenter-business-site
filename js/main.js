@@ -44,6 +44,10 @@ function initNav(){
 		$("nav").addClass("show");
 	});
 
+	$("nav .closeBtn").bind("click", function(){
+		$("nav").removeClass("show");
+	});
+
 	$("nav").bind("mouseleave", function(){
 		$("nav").removeClass("show");
 	});
@@ -54,5 +58,11 @@ function initNav(){
 		var targetScrollTop = $(target).offset().top - 50;
 
 		$('html, body').stop(true, false).animate({scrollTop: targetScrollTop}, 1000);
+
+		var availWidth = $(window).width();
+
+		if(availWidth < 480){
+			$("nav").removeClass("show");
+		}
 	});
 }
