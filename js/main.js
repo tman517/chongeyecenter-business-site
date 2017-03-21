@@ -51,7 +51,7 @@ function initNav(){
 	// jump to
 	$(".navOption").bind("click", function(){
 		var target = $(this).data("nav");
-		var targetScrollTop = $(target).offset().top - 40;
+		var targetScrollTop = $(target).offset().top - 50;
 
 		$('html, body').stop(true, false).animate({scrollTop: targetScrollTop}, 1000);
 	});

@@ -338,13 +338,13 @@ header.sticky .header-info {
     background-size: cover;
     background-position: center;
     position: relative;
-    margin: 175px auto 0px;
+    margin: 175px auto 40px;
     transition:500ms;
     -webkit-transition:500ms;
 }
 
 .banner.sticky {
-    margin: 70px auto 0px;
+    margin: 70px auto 40px;
 }
 
 .banner .store-info {
@@ -398,6 +398,8 @@ header.sticky .header-info {
     text-align: center;
     vertical-align: top;
     padding:40px;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .services .left {
@@ -424,6 +426,8 @@ header.sticky .header-info {
     right: 60px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .services .right {
@@ -447,6 +451,9 @@ header.sticky .header-info {
     -webkit-transform: translateY(-50%);
     color: #3c2313;
     left: 25px;
+    width:auto;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 
@@ -721,6 +728,12 @@ footer .column .heading {
 
 /* ======================= */
 @media (max-width: 1200px) {
+
+    .services .right > ul {
+        font-size:14px;
+        width:430px;
+    }
+        
     .insurance .insuranceLogos {
         max-width: 770px;
     }
@@ -751,6 +764,25 @@ footer .column .heading {
         line-height:16px;
         margin-bottom:4px;
     }
+
+
+    .services {
+        height: 370px;
+    }
+
+    .services .left .heading {
+        font-size: 35px;
+    }
+
+    .services .right > ul {
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height:22px;
+        top: 47%;
+        left: 0px;
+    }
+
+
     
     .insurance .insuranceLogos {
         max-width: 625px;
@@ -763,6 +795,7 @@ footer .column .heading {
 
     .insurance .heading {
         font-size:20px;
+        margin:40px 0px 40px;
     }
 
     .insurance .heading .line {
@@ -802,8 +835,57 @@ footer .column .heading {
         margin-bottom:4px;
     }
 
+
+    .services {
+        height: auto;
+        padding:0px;
+    }
+
+    .services .left {
+        width:auto;
+        height:auto;
+        padding:10px;
+        display:block;
+        position:relative;
+        background-color:#e2e2e2;
+        background-image:none;
+    }
+
+    .services .left .heading {
+        width:100%;
+        top:auto;
+        right:auto;
+        font-size:25px;
+        text-align:center;
+        display:block;
+        position:relative;
+        transform:translateY(0px);
+        -webkit-transform:translateY(0px);
+    }
+
+    .services .right {
+        width:auto;
+        height:auto;
+        display:block;
+        position:relative;
+        overflow:hidden;
+    }
+
+    .services .right > ul {
+        width:310px;
+        top:auto;
+        left:50%;
+        transform:translateY(0px);
+        -webkit-transform:translateY(0px);
+        transform:translateX(-50%);
+        -webkit-transform:translateX(-50%);
+        position:relative;
+    }
+
+
+
     .insurance {
-        padding:20px;
+        padding:0px;
     }
 
     .insurance .insuranceLogos {
@@ -817,6 +899,7 @@ footer .column .heading {
 
     .insurance .heading {
         font-size:17px;
+        margin:60px 0px 20px;
     }
 
     .insurance .heading .line {
@@ -873,8 +956,13 @@ footer .column .heading {
         margin-bottom:4px;
     }
 
+    .services .right ul {
+        width:250px;
+        font-size:9px;
+    }
+
     .insurance {
-        padding:10px;
+        padding:0px;
     }
 
     .insurance .insuranceLogos {
