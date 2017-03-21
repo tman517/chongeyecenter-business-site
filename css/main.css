@@ -339,6 +339,12 @@ header.sticky .header-info {
     background-position: center;
     position: relative;
     margin: 175px auto 0px;
+    transition:500ms;
+    -webkit-transition:500ms;
+}
+
+.banner.sticky {
+    margin: 70px auto 0px;
 }
 
 .banner .store-info {
@@ -355,6 +361,8 @@ header.sticky .header-info {
     border-left: 5px solid #78b254;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .banner .store-info .heading{
@@ -363,6 +371,8 @@ header.sticky .header-info {
     line-height: 35px;
     letter-spacing: 4px;
     margin-bottom:10px;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 
@@ -374,6 +384,8 @@ header.sticky .header-info {
     left: -105px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 
@@ -446,6 +458,7 @@ header.sticky .header-info {
     text-align: center;
     vertical-align: top;
     padding: 40px 40px;
+
 }
 
 .insurance .heading {
@@ -453,6 +466,8 @@ header.sticky .header-info {
     font-size:28px;
     letter-spacing:4px;
     margin:60px auto 40px;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .insurance .heading .line {
@@ -463,6 +478,8 @@ header.sticky .header-info {
     position: relative;
     margin: 0px 50px;
     top: -10px;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 .insurance .insuranceLogos {
@@ -475,6 +492,8 @@ header.sticky .header-info {
     width:auto;
     margin:30px 40px;
     display:inline-block;
+    transition:500ms;
+    -webkit-transition:500ms;
 }
 
 
@@ -669,6 +688,217 @@ footer .column .heading {
     margin-bottom:5px;
     border-bottom:1px solid #999999;
 }
+
+
+/* ======================= */
+@media (max-width: 1420px) {
+
+    .banner .store-info {
+        font-size: 15px;
+        left:66%;
+    }
+
+    .banner .store-info .clockIcon {
+        font-size: 70px;
+        left:-88px;
+    }
+
+    .banner .store-info .heading {
+        font-size: 27px;
+        line-height:20px;
+    }
+
+
+    .insurance .insuranceLogos {
+        max-width:1000px;
+    }
+
+    .insurance .heading .line {
+        width: 170px;
+    }
+}
+
+
+/* ======================= */
+@media (max-width: 1200px) {
+    .insurance .insuranceLogos {
+        max-width: 770px;
+    }
+}
+
+
+/* ======================= */
+@media (max-width: 1023px) {
+
+    .banner {
+        height:320px;
+    }
+
+    .banner .store-info {
+        font-size: 10px;
+        left:65%;
+        padding: 0px 0px 0px 10px;
+        border-left: 2px solid #78b254;
+    }
+
+    .banner .store-info .clockIcon {
+        font-size: 45px;
+        left:-50px;
+    }
+
+    .banner .store-info .heading {
+        font-size: 16px;
+        line-height:16px;
+        margin-bottom:4px;
+    }
+    
+    .insurance .insuranceLogos {
+        max-width: 625px;
+    }
+
+    .insurance .logo {
+        height:25px;
+        margin:20px;
+    }
+
+    .insurance .heading {
+        font-size:20px;
+    }
+
+    .insurance .heading .line {
+        width: 110px;
+        margin: 0px 20px;
+    }
+}
+
+
+/* ======================= */
+@media (max-width: 767px) {
+
+    .banner {
+        width:auto;
+        height:120px;
+        padding:20px;
+        background-size:131%;
+        background-position:-130px;
+    }
+
+    .banner .store-info {
+        font-size: 10px;
+        left:auto;
+        right:3%;
+        padding: 0px 0px 0px 10px;
+        border-left: 2px solid #78b254;
+    }
+
+    .banner .store-info .clockIcon {
+        font-size: 45px;
+        left:-50px;
+    }
+
+    .banner .store-info .heading {
+        font-size: 16px;
+        line-height:16px;
+        margin-bottom:4px;
+    }
+
+    .insurance {
+        padding:20px;
+    }
+
+    .insurance .insuranceLogos {
+        max-width: 420px;
+    }
+
+    .insurance .logo {
+        height:20px;
+        margin:15px;
+    }
+
+    .insurance .heading {
+        font-size:17px;
+    }
+
+    .insurance .heading .line {
+        width: 50px;
+        margin: 0px 10px;
+        top:-7px;
+    }
+}
+
+
+/* ---- minor tweak for header ---- */
+@media (max-width: 670px) {
+    header.sticky {
+        width: calc(100% - 20px);
+        padding:10px;
+    }
+
+    header.sticky .menuBtn {
+        right:10px;
+    }
+
+    header.sticky .header-info {
+        display:none;
+    }
+}
+
+
+/* ======================= */
+@media (max-width: 479px) {
+
+    .banner {
+        height:120px;
+        padding:10px;
+        background-size:144%;
+        background-position:-130px;
+    }
+
+    .banner .store-info {
+        font-size: 7px;
+        left:auto;
+        right:3%;
+        padding: 0px 0px 0px 10px;
+        border-left: 2px solid #78b254;
+    }
+
+    .banner .store-info .clockIcon {
+        font-size: 30px;
+        left:-37px;
+    }
+
+    .banner .store-info .heading {
+        font-size: 13px;
+        line-height:12px;
+        margin-bottom:4px;
+    }
+
+    .insurance {
+        padding:10px;
+    }
+
+    .insurance .insuranceLogos {
+        max-width: 260px;
+    }
+
+    .insurance .logo {
+        height:20px;
+        margin:15px;
+    }
+
+    .insurance .heading {
+        font-size:13px;
+        letter-spacing: 2px;
+    }
+
+    .insurance .heading .line {
+        width: 30px;
+        margin: 0px 10px;
+        top:-4px;
+    }
+}
+
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
