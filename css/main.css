@@ -664,8 +664,9 @@ footer {
 }
 
 footer .map {
-    width:1000px;
-    height:500px;
+    width:80%;
+    height:auto;
+    max-width:1000px;
     position:relative;
     margin:80px auto 30px;
     display:block;
@@ -989,6 +990,10 @@ footer .column .heading {
         font-size:15px;
         padding:15px;
     }
+
+    footer .map {
+        margin:40px auto 30px;
+    }
 }
 
 
@@ -1140,6 +1145,10 @@ footer .column .heading {
     .doctor .portrait {
         display:block;
         margin-bottom:10px;
+    }
+
+    footer .copyright {
+        font-size:9px;
     }
 }
 
