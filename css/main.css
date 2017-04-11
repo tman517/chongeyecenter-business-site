@@ -339,14 +339,19 @@ header .header-info {
     height:auto;
     position:absolute;
     font-family: 'Roboto', sans-serif;
-    font-size:15px;
+    font-size:18px;
     letter-spacing:1px;
     text-align:right;
     color:#3c2313;
-    top: 105px;
+    top: 90px;
     right: 40px;
     transition:500ms;
     -webkit-transition:500ms;
+}
+
+header .header-address {
+    margin-top:6px;
+    line-height:20px;
 }
 
 header.sticky {
@@ -362,11 +367,15 @@ header.sticky .menuBtn {
 }
 
 header.sticky .header-info {
-    top:20px;
+    top:9px;
     right:100px;
     font-size:13px;
 }
 
+
+header.sticky .header-address {
+    line-height:16px;
+}
 /* ------------ */
 
 .banner {
@@ -542,6 +551,11 @@ header.sticky .header-info {
     -webkit-transition:500ms;
 }
 
+.insurance .notListed {
+    font-style:italic;
+    color:#666666;
+    margin-top:20px;
+}
 
 /* ------------ */
 
@@ -646,9 +660,9 @@ header.sticky .header-info {
     min-height:550px;
     position:relative;
     display:inline-block;
-    background-image:url('../img/doctor.jpg');
-    background-size:cover;
-    background-position:center;
+    background-image:url('../img/james.jpg');
+    background-size:contain;
+    background-position:top right;
     background-repeat:no-repeat;
     vertical-align:top;
 }
@@ -725,7 +739,7 @@ footer .copyright {
 footer .column {
     width: 220px;
     height: auto;
-    min-height: 60px;
+    min-height: 115px;
     overflow: hidden;
     display: inline-block;
     text-align: left;
@@ -733,13 +747,13 @@ footer .column {
     background-color: #e2e2e2;
     border-radius: 5px;
     color: #000000;
-    font-size: 12px;
+    font-size: 15px;
     vertical-align:top;
     margin:2px 0px;
 }
 
 footer .column .heading {
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 3px;
     font-weight: bold;
     margin-bottom:5px;
@@ -1035,6 +1049,16 @@ footer .column .heading {
     footer .map {
         margin:40px auto 30px;
     }
+
+    footer .column {
+        font-size: 12px;
+        min-height:95px;
+    }
+
+    footer .column .heading {
+        font-size:14px;
+    }
+
 }
 
 
@@ -1093,6 +1117,7 @@ footer .column .heading {
         font-size:9px;
     }
 
+
     .insurance {
         padding:20px 0px;
     }
@@ -1115,6 +1140,10 @@ footer .column .heading {
         width: 30px;
         margin: 0px 10px;
         top:-4px;
+    }
+
+    .insurance .notListed {
+        font-size:11px;
     }
 
 
@@ -1190,6 +1219,11 @@ footer .column .heading {
 
     footer .copyright {
         font-size:9px;
+    }
+
+    footer .column {
+        font-size: 12px;
+        min-height:auto;
     }
 }
 
