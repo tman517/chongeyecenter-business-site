@@ -657,10 +657,10 @@ header.sticky .header-address {
 .doctor .left {
     width:50%;
     height:auto;
-    min-height:550px;
+    min-height:500px;
     position:relative;
     display:inline-block;
-    background-image:url('../img/james.jpg');
+    background-image:url('../img/james2.jpg');
     background-size:contain;
     background-position:top right;
     background-repeat:no-repeat;
