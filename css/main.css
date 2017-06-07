@@ -395,7 +395,7 @@ header .languages {
     height:40px;
     position:absolute;
     bottom:-40px;
-    right:50px;
+    right:-50px;
     overflow:hidden;
 }
 
